@@ -1,0 +1,81 @@
+CRITICAL - 2022-04-28 04:14:21 --> Invalid file: oirp/pages/cause/images.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/pages/caus...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/pages/caus...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Page.php(64): view('oirp/pages/caus...', Array, Array, Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause('images', 'home02-3.jpg')
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 04:18:50 --> Invalid file: oirp/pages/cause/images.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/pages/caus...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/pages/caus...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Page.php(64): view('oirp/pages/caus...', Array, Array, Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause('images', 'home02-3.jpg')
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 04:37:15 --> Invalid file: oirp/pages/cause/images.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/pages/caus...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/pages/caus...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Page.php(64): view('oirp/pages/caus...', Array, Array, Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause('images', 'home02-3.jpg')
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 05:50:28 --> Invalid file: oirp/pages/cause/images.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/pages/caus...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/pages/caus...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Page.php(64): view('oirp/pages/caus...', Array, Array, Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause('images', 'home02-3.jpg')
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 05:54:01 --> Invalid file: oirp/pages/cause/images.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/pages/caus...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/pages/caus...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Page.php(64): view('oirp/pages/caus...', Array, Array, Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause('images', 'home02-3.jpg')
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 05:58:34 --> Invalid file: oirp/pages/cause/images.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/pages/caus...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/pages/caus...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Page.php(64): view('oirp/pages/caus...', Array, Array, Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause('images', 'home02-3.jpg')
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 06:03:11 --> Invalid file: oirp/pages/cause/images.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/pages/caus...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/pages/caus...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Page.php(64): view('oirp/pages/caus...', Array, Array, Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause('images', 'home02-3.jpg')
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 06:03:44 --> Invalid file: oirp/pages/cause/images.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/pages/caus...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/pages/caus...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Page.php(64): view('oirp/pages/caus...', Array, Array, Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause('images', 'home02-3.jpg')
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-28 06:12:35 --> Invalid file: oirp/pages/cause/images.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/pages/caus...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/pages/caus...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Page.php(64): view('oirp/pages/caus...', Array, Array, Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause('images', 'home02-3.jpg')
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,4 @@
+/public/assets/plugins/*
+/system
+/.env
+/test/*

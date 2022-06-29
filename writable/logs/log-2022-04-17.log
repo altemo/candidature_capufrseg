@@ -1,0 +1,205 @@
+CRITICAL - 2022-04-17 06:45:01 --> Invalid file: oirp/pages/cause/images.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/pages/caus...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/pages/caus...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Page.php(63): view('oirp/pages/caus...', Array, Array, Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause('images', 'home02-3.jpg')
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 06:45:13 --> Invalid file: oirp/pages/cause/images.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/pages/caus...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/pages/caus...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Page.php(63): view('oirp/pages/caus...', Array, Array, Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause('images', 'home02-3.jpg')
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 07:53:51 --> Invalid file: oirp/diplome/form.php
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('oirp/diplome/fo...')
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Common.php(1089): CodeIgniter\View\View->render('oirp/diplome/fo...', Array, true)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(59): view('oirp/diplome/fo...', Array)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->index()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:35:03 --> Cannot access protected property App\Libraries\Crud::$request
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-17 10:42:30 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:23 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:25 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:26 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:26 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:27 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:27 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:27 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:27 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:27 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:28 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:28 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:28 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:29 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:29 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 10:43:29 --> You must set the database table to be used with your query.
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(53): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem(NULL, NULL)
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem(NULL, NULL)
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-17 10:45:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-04-17 10:45:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL' at line 3
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem('diplome', NULL)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem('diplome', NULL)
+#7 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#8 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#9 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-17 10:47:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-04-17 10:47:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL' at line 3
+#0 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Models/CrudModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Libraries/Crud_core.php(1305): App\Models\CrudModel->getItem('diplome', NULL)
+#6 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/app/Controllers/Diplome.php(69): App\Libraries\Crud_core->getItem('diplome', NULL)
+#7 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(832): App\Controllers\Diplome->verifier()
+#8 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diplome))
+#9 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/mampstack-7.3.13-0/apache2/htdocs/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

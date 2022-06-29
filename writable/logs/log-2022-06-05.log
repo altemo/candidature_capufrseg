@@ -1,0 +1,36 @@
+CRITICAL - 2022-06-05 08:25:06 --> Invalid file: oirp/pages/cause/images.php
+#0 /var/www/vhosts/oirp-ong.com/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/oirp-ong.com/oirp/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/oirp-ong.com/oirp/app/Controllers/Page.php(64): view()
+#3 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause()
+#4 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/oirp-ong.com/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-05 22:35:35 --> Invalid file: oirp/pages/cause/contact.html
+#0 /var/www/vhosts/oirp-ong.com/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/oirp-ong.com/oirp/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/oirp-ong.com/oirp/app/Controllers/Page.php(64): view()
+#3 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause()
+#4 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/oirp-ong.com/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-05 22:46:19 --> Invalid file: oirp/pages/cause/events.html
+#0 /var/www/vhosts/oirp-ong.com/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/oirp-ong.com/oirp/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/oirp-ong.com/oirp/app/Controllers/Page.php(64): view()
+#3 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause()
+#4 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/oirp-ong.com/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-05 23:09:48 --> Invalid file: oirp/pages/cause/our-team.html
+#0 /var/www/vhosts/oirp-ong.com/oirp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/oirp-ong.com/oirp/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/oirp-ong.com/oirp/app/Controllers/Page.php(64): view()
+#3 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(832): App\Controllers\Page->cause()
+#4 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/oirp-ong.com/oirp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/oirp-ong.com/oirp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
