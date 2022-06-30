@@ -2,3 +2,11 @@
 /system
 /.env
 /test/*
+/writable/cache/*
+/writable/debugbar/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+
+
+
