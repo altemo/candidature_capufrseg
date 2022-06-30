@@ -24,7 +24,7 @@ class App extends BaseConfig
      * @var string
      */
     
-     public $baseURL = 'https://oirp-ong.com/index.php/';
+     public $baseURL = 'http://candidature.test';
 
     /**
      * --------------------------------------------------------------------------

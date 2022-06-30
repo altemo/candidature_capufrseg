@@ -17,7 +17,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Page');
+$routes->setDefaultController('Login');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -31,37 +31,7 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-//$routes->get('/', 'Home::index');
-
-//$routes->get('/users/(:any)', 'Users::index/$1');
-
-/** PAGES */
-
-//$routes->get('adminer/(:any)', ucfirst($1).'::index');
-$routes->group('adminer', function ($routes) {
-    $routes->add('users', 'Users::index');
-    $routes->add('dashevent', 'Dashevent::index');
-});
-
-// Diplome 
-//$routes->get('/certifi/', 'Page::apropos');
-
-
-//actionshumanitaires
-$routes->get('/apropos/', 'Page::apropos');
-$routes->get("/ambassadeur", "Page::ambassadeur");
-$routes->get('/faq/', 'Page::faq');
-$routes->get('/donate/', 'Page::donate');
-$routes->get("pwords", "Page::pwords");
-$routes->get('/certificat/', 'Diplome::index'); //authentification
-$routes->get('/certificat/authentification/', 'Diplome::authentification'); //
-$routes->get('/team/', 'Page::team');
-$routes->get('/event/', 'Page::event');
-$routes->get('/photos/', 'Page::mediatheque/photos');
-$routes->get('/videos/', 'Page::mediatheque/videos');
-$routes->get('/contactus/', 'Page::contactus');
-$routes->get('/cause', 'Page::cause');
-$routes->add('cause/(:any)', 'Page::cause/$1');
+$routes->get('/', 'Login::index');
 
 
 /*
